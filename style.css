@@ -1,0 +1,106 @@
+body {
+    background-image:url("hayati.jpg") ;
+    background-size:100% 100% ;
+    margin: auto;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+
+.menu {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    height: 70px;
+    width: 100%;
+    background: black;
+    border-radius: 5px;
+    font-size: 20px;
+}
+
+label {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 22pt;
+    color: beige;
+    margin: 10px;
+    padding: 5px;
+    float: left;
+}
+
+.menu ul {
+    margin: 0px;
+    padding: 5px;
+    background: none;
+    display: block;
+    float: right;
+}
+
+.menu ul li {
+    list-style: none;
+    display: inline-block;
+}
+
+.menu ul li a {
+    display: block;
+    text-decoration: none;
+    padding: 20px;
+    color: aquamarine;
+}
+
+.menu ul li a:hover {
+    display: block;
+    color: rgb(9, 158, 158);
+    background-color: rgb(5, 71, 71);
+    box-shadow: inset 0px 0px 5px rgb(5, 71, 71);
+}
+
+.menu ul li .dropdown {
+    display: none;
+}
+
+.menu ul li:hover .dropdown {
+    display: block;
+    background: black;
+    position: absolute;
+    padding: 10px;
+}
+
+.menu .dropdown .dropdown2 {
+    display: none;
+}
+
+.menu .dropdown:hover .dropdown2 {
+    display: block;
+    background: black;
+    position: relative;
+    padding: 10px;
+}
+
+.menu ul li:hover .dropdown li {
+    display: block;
+}
+
+.content {
+    color: #fff;
+    text-align: center;
+}
+
+.content h1 {
+    margin-top: 100px;
+    font-size: 55px;
+}
+
+form input {
+    width: 800px;
+    height: 60px;
+    border-radius: 20px;
+    background: hwb(0 100% 0% / 0.418);
+}
+form button {
+    border: none;
+    width: 150px;
+    height: 50px;
+    margin-left: -5px;
+    border-radius: 20px;
+    font-size: 28px;
+    background-color: #ca801f96;
+    color: #fff;
+}
